@@ -1,5 +1,12 @@
-## Jogo da Velha - X | O :coffee:
+# Jogo da velha (App)
 
-### Kafka Library
-<p align="left">
-Jogo da velha com interface utilizando Java Swing, como modos de 1vs1 player, e 1 vs CPU
+## Descrição
+
+Jogo da velha padrão utilizando Java Swing para interação com o usuário. A aplicação possui 2 estados assumidos, sendo 1 deles multijogador e outro 1 vs CPU.
+
+## Tecnologias Utilizadas
+
+As tecnologias deste projeto, são:
+
+- *Java* (versão 21)
+- *Apache Maven* (versão 4.0.0)
