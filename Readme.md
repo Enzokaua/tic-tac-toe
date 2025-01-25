@@ -1,10 +1,9 @@
-# Twiit - Plataforma pessoal
+# Tic-Tac-Toe - Jogo da Velha
 
-> Twiit é um desenvolvimento pessoal de como funcionaria o back-end de uma aplicação de mídia social como o Instagram e o Facebook por exemplo. O projeto conta com escopos de segurança e autenticação utilizando geração de tokens
-através do JWT e do OAuth2, suas funcionalidades são as necessárias para que este fluxo funcione corretamente. A aplicação tem as principais funcionalidades:
-> - Um usuário administrador pode criar outros usuários;
-> - Um usuário pode efetuar um login e assim terá um token de autenticação;
-> - Todos os usuários logados consegue gerar tweets (Verificacao através do token quando efetuado o login);
+> Tic-Tac-Toe é um projeto pessoal que implementa o clássico jogo da velha com funcionalidades modernas e interativas. Desenvolvido em Java (versão JDK 21) com o uso da biblioteca gráfica Java Swing, o projeto explora tanto a jogabilidade multiplayer quanto contra a CPU, utilizando uma interface gráfica amigável. O jogo possui cinco telas distintas, cada uma desenhada para criar uma experiência fluida e intuitiva. Java Swing é uma das bibliotecas padrão do Java para a criação de interfaces gráficas (GUI). Ele oferece componentes como botões, menus, painéis e muito mais, permitindo criar aplicativos com janelas interativas. Por ser altamente customizável e leve, Swing é ideal para projetos que necessitam de GUIs robustas e portáveis. No Tic-Tac-Toe, o Swing foi usado para criar a interface do jogo, os controles e as interações visuais. As principais funcionalidades são:
+> - Modo multiplayer local, permitindo que dois jogadores compartilhem a experiência no mesmo dispositivo.
+> - Modo contra a CPU, com lógica programada para desafiar o jogador.
+> - Interface gráfica intuitiva para navegação entre as telas e jogabilidade fluida.
 > - Todos os usuários logados conseguem ver todos os tweets criados (com paginação)
 > - Somente o usuário quem criou o seu tweet, pode deletá-lo;
 > - Um usuário Administrador pode criar outros usuários Administradores;
@@ -13,19 +12,14 @@ através do JWT e do OAuth2, suas funcionalidades são as necessárias para que 
 
 ## 💻 Pré-requisitos
 
-Caso deseje instalar o projeto para verificar, fique a vontade! Antes de começar, é necessário que os seguintes passos estejam configurados:
+Caso deseje executar o projeto, siga as etapas abaixo. Certifique-se de que o ambiente está configurado corretamente:
 
 - Java 21 ou superior instalado no ambiente;
 - Maven instalado e apontado nas variáveis de ambiente;
-- Geração da chave pública e privada através do OpenSSL (O projeto conta com uma chave pública e privada default, mas é de extrema necessidade que seja gerada uma referente ao seu ambiente);
+- Ambiente IDE como IntelliJ ou Eclipse para rodar o projeto.
 
 
 ## 🚀 Sobre o projeto
 
-O projeto ainda está em desenvolvimento, não possuindo um frontend integrado com a aplicação, tendo que suas requisições sejam acessadas diretamente aos endpoints. Este projeto foi inicialmente criado para testar as habilidades em JWT e OAuth, alternativas de segurança na qual venho interagindo com elas a algum tempo. O projeto foi desenvolvido com Java 21, Spring como framework, JWT e OAuth como tecnologias de segurança de usuário, e, JPA e MySql como mapeamento de objetos e banco de dados. Foi desenvolvido alguns passos com o SSL para geração da chave pública e privada necessárias ao JWT, mas que fogem do escopo deste projeto. 
-
-
-## :coffee: Contratos da API
-O projeto conta com as funcionalidades detalhadas em seu descritivo e as suas necessidades antes do deploy em sua máquina pessoal já mencionadas. Com estes 2 pontos configurados, já é possível subir o projeto e realizar um teste com sua integração verificando os constratos passados no swagger.yaml.
-
-Em caso de dúvida ou alterações, estou a disposição. Abraços! 👋
+Este projeto foi desenvolvido como um exercício de aprimoramento de habilidades em Java e no uso do Java Swing para interfaces gráficas. A principal motivação foi criar um jogo interativo e visualmente atrativo, explorando lógica de jogo e design de GUIs.
+Com cinco telas bem definidas, o projeto busca proporcionar uma experiência que remete a jogos clássicos, mas com uma interface moderna e acessível.
